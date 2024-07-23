@@ -1,0 +1,32 @@
+.present {
+    background-color: #d4edda; /* Green background for present */
+}
+
+.absent {
+    background-color: #f8d7da; /* Red background for absent */
+}
+
+.present-content {
+    color: #155724; /* Green text for present */
+}
+
+.absent-content {
+    color: #721c24; /* Red text for absent */
+}
+.calendar-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.calendar {
+    flex: 1;
+}
+.progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    overflow: visible; /* Ensure no content is clipped */
+}
+

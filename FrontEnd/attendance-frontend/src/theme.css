@@ -1,0 +1,11 @@
+body {
+    background-color: #e9ecef; /* Light neutral gray background */
+    color: #495057; /* Dark gray text for readability */
+}
+
+.container {
+    background-color: #fff; /* White background for containers */
+    border: 1px solid #ced4da; /* Neutral border for separation */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+}
