@@ -7,6 +7,8 @@ class StudentSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 class AttendanceSerializer(serializers.ModelSerializer):
+    student_name = serializers.ReadOnlyField(source='student.name')  # Optional: Include student name in the response
+
     class Meta:
         model = Attendance
-        fields = '__all__'
+        fields = ['student_name', 'timestamp', 'location', 'status']  # Added 'student_name' for clarity
